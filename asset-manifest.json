@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/sinekamva/static/css/main.e18eefa0.chunk.css",
+    "main.js": "/sinekamva/static/js/main.54abedf3.chunk.js",
+    "main.js.map": "/sinekamva/static/js/main.54abedf3.chunk.js.map",
+    "runtime-main.js": "/sinekamva/static/js/runtime-main.1fa0bcc0.js",
+    "runtime-main.js.map": "/sinekamva/static/js/runtime-main.1fa0bcc0.js.map",
+    "static/css/2.bf5b17f7.chunk.css": "/sinekamva/static/css/2.bf5b17f7.chunk.css",
+    "static/js/2.bab41358.chunk.js": "/sinekamva/static/js/2.bab41358.chunk.js",
+    "static/js/2.bab41358.chunk.js.map": "/sinekamva/static/js/2.bab41358.chunk.js.map",
+    "index.html": "/sinekamva/index.html",
+    "precache-manifest.0032582d508f9c4926a073f73be98cd5.js": "/sinekamva/precache-manifest.0032582d508f9c4926a073f73be98cd5.js",
+    "service-worker.js": "/sinekamva/service-worker.js",
+    "static/css/2.bf5b17f7.chunk.css.map": "/sinekamva/static/css/2.bf5b17f7.chunk.css.map",
+    "static/css/main.e18eefa0.chunk.css.map": "/sinekamva/static/css/main.e18eefa0.chunk.css.map",
+    "static/js/2.bab41358.chunk.js.LICENSE.txt": "/sinekamva/static/js/2.bab41358.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/sinekamva/static/media/bg2.bd816289.jpg",
+    "static/media/circles.png": "/sinekamva/static/media/circles.9cbeb5a1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1fa0bcc0.js",
+    "static/css/2.bf5b17f7.chunk.css",
+    "static/js/2.bab41358.chunk.js",
+    "static/css/main.e18eefa0.chunk.css",
+    "static/js/main.54abedf3.chunk.js"
+  ]
+}
