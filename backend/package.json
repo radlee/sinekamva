@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "NodeJs REST API with Express, Sequelize and MySQL",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [     "nodejs",
+                  "express",
+                "react",
+              "api",
+            "sequelize",
+          "mysql" ],
+  "author": "Lolito",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.0.2",
+    "mysql": "^2.14.1",
+    "bycrypt": "^3.0.0",
+    "nodemon": "^2.0.4",
+    "sequelize": "^6.1.0",
+    "jsonwebtoken": "^7.4.3"
+  }
+}
