@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "111174373fa0d61141f6aec2c8d1f14e",
+    "revision": "1230fd722888f65dcbefe7a02dd5ab97",
     "url": "/sinekamva/index.html"
   },
   {
-    "revision": "746ffea835bf81f6ba06",
-    "url": "/sinekamva/static/css/2.bf5b17f7.chunk.css"
+    "revision": "a678a6b9994d9c4d2a0b",
+    "url": "/sinekamva/static/css/2.1601c95f.chunk.css"
   },
   {
-    "revision": "37358f03c5afe015f7b1",
+    "revision": "79f3791b4ac15ec7bd44",
     "url": "/sinekamva/static/css/main.71ed6f15.chunk.css"
   },
   {
-    "revision": "746ffea835bf81f6ba06",
-    "url": "/sinekamva/static/js/2.bab41358.chunk.js"
+    "revision": "a678a6b9994d9c4d2a0b",
+    "url": "/sinekamva/static/js/2.2c21530f.chunk.js"
   },
   {
     "revision": "d2966845b94a3318bf32eecc7af8015d",
-    "url": "/sinekamva/static/js/2.bab41358.chunk.js.LICENSE.txt"
+    "url": "/sinekamva/static/js/2.2c21530f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "37358f03c5afe015f7b1",
-    "url": "/sinekamva/static/js/main.777c7c8e.chunk.js"
+    "revision": "79f3791b4ac15ec7bd44",
+    "url": "/sinekamva/static/js/main.75d6a3f4.chunk.js"
   },
   {
     "revision": "c5070b54ff4e498e24e6",
