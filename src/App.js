@@ -25,6 +25,7 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
+          <Navigation />
           <Switch>
               <Route path={["/", "/landing"]} exact component={Landing} />
               {/* <Route exact path="/edit/:id" component={EditProject} />
@@ -35,7 +36,6 @@ class App extends Component {
               <Route exact path="/create" component={Create} /> */}
               {/* <Route path="/user" component={CreateUser} /> */}
           </Switch>
-          <Navigation />
           <br />
           <Notice />
           <br />
