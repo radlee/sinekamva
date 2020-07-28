@@ -6,26 +6,26 @@ export default class Notice extends Component {
     return (
 
         <Container>
-            <h1 clasName="display-3">Current Projects</h1>
+            <h1 clasName="display-3">Projects</h1>
             <br />
             <br />
             <Row>
-                <Col   sm="6">
-                <div>
+                <Col sm="6">
+                    <div>
                         <Card>
-                            <CardHeader> Be The Helping Hand </CardHeader>
+                            <CardHeader> Education </CardHeader>
                             <CardBody>
-                                <CardTitle>DONATIONS</CardTitle>
+                                <CardTitle>OBJECTIVE - ENCOURAGE LITERACY</CardTitle>
                                 <CardText>
-                                    This Project is aimed at making a difference with the litle we can share.
+                                    Connecting the Leaner/Student to the Teacher
                                 </CardText>
                             </CardBody>
-                            <CardFooter>OCTOBER OBJECTIVE : Donate Food and Help</CardFooter>
+                            <CardFooter>Tutoring | Mentourship</CardFooter>
                         </Card>
                     </div>
                 </Col>
 
-                <Col   sm="6">
+                <Col sm="6">
                     <div>
                         <Card>
                             <CardHeader> Sinekamva on Health </CardHeader>
