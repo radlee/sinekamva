@@ -18,7 +18,7 @@ class ContactForm extends Component {
 
         let templateParams = {
             from_name: email,
-            to_name: 'gmail',
+            to_name: 'mafanga@gmail.com',
             subject: subject,
             message_html: message
         }
@@ -69,8 +69,8 @@ class ContactForm extends Component {
                         <FormGroup controlId="fromBasicName">
                             <Label className="label">Name</Label>
                             <Input 
-                                type="hidden" 
-                                name="contact_number"
+                                type="text" 
+                                name="name"
                                 value={ this.state.name }
                                 className="text"
                                 onChange={this.handleChange.bind(this, 'name')}
@@ -102,6 +102,8 @@ class ContactForm extends Component {
                     </Form>
                 </Container>
             </div>
+
+            
         )
     }
 }
