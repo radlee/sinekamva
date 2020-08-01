@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/sinekamva/static/css/main.b1a6d0dd.chunk.css",
-    "main.js": "/sinekamva/static/js/main.f3957c8b.chunk.js",
-    "main.js.map": "/sinekamva/static/js/main.f3957c8b.chunk.js.map",
+    "main.js": "/sinekamva/static/js/main.1d2024ee.chunk.js",
+    "main.js.map": "/sinekamva/static/js/main.1d2024ee.chunk.js.map",
     "runtime-main.js": "/sinekamva/static/js/runtime-main.1fa0bcc0.js",
     "runtime-main.js.map": "/sinekamva/static/js/runtime-main.1fa0bcc0.js.map",
     "static/css/2.1601c95f.chunk.css": "/sinekamva/static/css/2.1601c95f.chunk.css",
     "static/js/2.ede197bb.chunk.js": "/sinekamva/static/js/2.ede197bb.chunk.js",
     "static/js/2.ede197bb.chunk.js.map": "/sinekamva/static/js/2.ede197bb.chunk.js.map",
     "index.html": "/sinekamva/index.html",
-    "precache-manifest.56ebd0dd5879e9b813f143cc98cf686d.js": "/sinekamva/precache-manifest.56ebd0dd5879e9b813f143cc98cf686d.js",
+    "precache-manifest.75351509dc6f395f872f117bc2417a17.js": "/sinekamva/precache-manifest.75351509dc6f395f872f117bc2417a17.js",
     "service-worker.js": "/sinekamva/service-worker.js",
     "static/css/2.1601c95f.chunk.css.map": "/sinekamva/static/css/2.1601c95f.chunk.css.map",
     "static/css/main.b1a6d0dd.chunk.css.map": "/sinekamva/static/css/main.b1a6d0dd.chunk.css.map",
@@ -26,6 +26,6 @@
     "static/css/2.1601c95f.chunk.css",
     "static/js/2.ede197bb.chunk.js",
     "static/css/main.b1a6d0dd.chunk.css",
-    "static/js/main.f3957c8b.chunk.js"
+    "static/js/main.1d2024ee.chunk.js"
   ]
 }

@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6bf6f186cf730f8e8964914e8b81fd73",
+    "revision": "67c07eea3bf57f56194b6e5cff8d9f48",
     "url": "/sinekamva/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sinekamva/static/css/2.1601c95f.chunk.css"
   },
   {
-    "revision": "cce5167d02b6601d624a",
+    "revision": "6e16dd4c40b1e1acdb2f",
     "url": "/sinekamva/static/css/main.b1a6d0dd.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sinekamva/static/js/2.ede197bb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cce5167d02b6601d624a",
-    "url": "/sinekamva/static/js/main.f3957c8b.chunk.js"
+    "revision": "6e16dd4c40b1e1acdb2f",
+    "url": "/sinekamva/static/js/main.1d2024ee.chunk.js"
   },
   {
     "revision": "c5070b54ff4e498e24e6",
