@@ -23,7 +23,7 @@ const Navigation = (props) => {
         return (
             <div className="">
 
-                <Navbar className="navigation" color="primary" dark extended="md">
+                <Navbar className="navigation" color="info" dark extended="md">
                     <NavbarBrand href="/">Sinekamva Foundation Inc</NavbarBrand>
                     <NavbarToggler onClick={toggle} />
                     <Collapse isOpen={isOpen} navbar>

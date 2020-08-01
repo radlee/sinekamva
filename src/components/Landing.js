@@ -6,11 +6,11 @@ class Landing extends Component {
         return (
             <Jumbotron className="jumbotron">
                 <h1 clasName="display-3">Sinekamva  Foundation</h1>
-                <p className="lead">Social Welfare</p>
+                <p className="lead">Our Organizational Objectives are linked to the problems and contributing towards Solutions</p>
                 <hr className="my-2" />
-                <p>Providing a solution to an existing problem.</p>
+                <p>We Act uppon these Objectives to provide Solutions </p>
                 <p className="lead">
-                    <Button color="primary">Connect</Button>
+                    <Button color="info">Connect</Button>
                 </p>
             </Jumbotron>
         )

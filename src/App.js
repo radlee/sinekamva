@@ -4,6 +4,8 @@ import Footer from './components/footer/footer';
 import Notice from './components/notice/notice.component';
 import Spinner from './components/spinner/spinner.component';
 import TeamList from './components/team-list/team-list.component';
+import Sponsors from './components/sponsors/sponsors.component';
+import ContactForm from './components/contact-us/contact.component';
 import './App.css';
 
 import Navigation from "./components/Navigation"
@@ -39,6 +41,10 @@ class App extends Component {
           <Notice />
           <br />
           <TeamList />
+          <br />
+          <Sponsors />
+          <br />
+          <ContactForm />
           <br />
           <Spinner />
           <br />

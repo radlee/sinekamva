@@ -6,8 +6,95 @@
   color: white !important;
 }
 
+.heading-span {
+  background-color: #0076a3d1;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  line-height: 1.5;
+}
+
+.dropdown-item {
+    background-color: #0075a3b0 !important;
+    color: white !important;
+}
+
+.dropdown-menu {
+  background-color: #68e90c2b !important;
+}
+
+
+.navbar {
+    background-color: #17a2b882!important;
+}
+
+.emphasis {
+  color:#f7e30087;
+}
+
+
+.navbar > .bg-dark {
+  background-color: #0076a3 !important;
+}
+.navbar {
+  position: relative;
+  display: flex;
+  background-color: #0076a3 !important;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: .5rem 1rem;
+}
+.list-group-item {
+  position: relative;
+  display: block;
+  color: white;
+  padding: .75rem 1.25rem;
+  background-color: #2887a126 !important;
+  border: 1px solid rgba(0,0,0,.125);
+}
+
+.text {
+  background-color: #167b9b61 !important;
+  color: white !important;
+  text-align: center;
+}
+Form {
+  color: white !important;
+}
+
+.label {
+  color: white !important;
+}
+
+.form-control:focus {
+  color: white !important;
+  background-color: #19afca6b !important;
+  border-color: #80bdff !important;
+  outline: 0;
+}
+
+.form-control {
+  color: white !important;
+  background-color: #19afca6b !important;
+  border-color: white !important;
+  outline: 0;
+}
+
 .jumbotron {
   background-image: url("./bg2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  background-attachment: fixed;
+  background-position: center;
+  border-bottom: 8px solid #f7e30087;
+  border-top: 8px solid #f7e30073;
+  border-radius: 0px !important;
+}
+.notice-is {
+  background-image: url("./is.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   color: #ffffff;
@@ -16,11 +103,80 @@
   border-top: 8px solid #0077a2;
   border-radius: 0px !important;
 }
+.notice-one {
+  background-image: url("./bg1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  background-position: center;
+  border-bottom: 8px solid #f7e300;
+  border-top: 8px solid #0077a2;
+  border-radius: 0px !important;
+}
+.notice-sponsor {
+  background-image: url("./sponsor.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  background-position: center;
+  border-bottom: 8px solid #4200f79f;
+  border-top: 8px solid #a20d00;
+  border-radius: 0px !important;
+}
+.notice-inno {
+  background-image: url("./inno.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  background-position: center;
+  border-bottom: 8px solid #f7e300;
+  border-top: 8px solid #0077a2;
+  border-radius: 0px !important;
+}
+.notice-two {
+  background-image: url("./bg4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  background-position: center;
+  border-bottom: 8px solid #f7e300;
+  border-top: 8px solid #0077a2;
+  border-radius: 0px !important;
+}
+body {
+  background-image: url("./bg4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.profile-pic {
+  padding: 20px;
+  border-radius: 100px;
+  margin-right: 10px;
+}
+
+.Media {
+  border-bottom: 2px solid #0076a3;
+}
 
 .footer-text {
-  color: #0076a3;
+  color: white;
   font-family: Arial Black;
   font-size: 28px;
+}
+
+h1 {
+  color: white !important;
+}
+.h1:hover{
+  text-decoration: underline !important;
+}
+.heading-horizon {
+  background-color: #0076a36e;
+  height: 6px;
+  width: 200px;
 }
 
 .lead {
@@ -31,17 +187,22 @@
   text-align: left;
 }
 
+.list-g {
+  border-top: 6px solid #0076a3 !important;
+}
+
+
 .card-header {
   color: white;
-  background-color: rgb(0 118 163) !important;
-  border-bottom: 6px solid rgb(247 227 0) !important;
+  background-color: rgb(0 118 163 / 51%) !important;
+  border-bottom: 6px solid rgb(0 82 247 / 50%) !important;
 }
 
 .card-footer {
   color: white;
   font-weight: bold;
-  background-color: rgb(0 118 163) !important;
-  border-top: 6px solid rgb(247 227 0) !important;
+  background-color: rgb(0 118 163 / 50%) !important;
+  border-top: 6px solid rgb(247 227 0 / 50%) !important;
 }
 
 .App-logo {
