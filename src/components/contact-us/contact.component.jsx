@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import * as emailjs from 'emailjs-com';
+import * as emailjs from 'emailjs-com';
 
 import { Row, Col, Container, Form, FormFeedback, Button, FormGroup, Label, Input } from 'reactstrap';
 
@@ -18,19 +18,20 @@ class ContactForm extends Component {
 
         let templateParams = {
             from_name: email,
-            to_name: 'mafanga@gmail.com',
+            to_name: 'gmail',
             subject: subject,
             message_html: message
         }
 
-        // emailjs.send(
-        //     'gmail',
-        //     'template_XXXXXXX',
-        //     'templateParams',
-        //     'user_XXXXXXXX'
-        // )
+        emailjs.send(
+            'gmail',
+            'contact_form',
+            'templateParams',
+            'user_DWOuhEd9UNjZKbOHm5NyC'
+        )
 
         this.resetForm()
+        alert('Message Sent')
     }
 
     resetForm() {
@@ -40,6 +41,7 @@ class ContactForm extends Component {
             subject: '',
             message: ''
         })
+        
     }
 
     handleChange = (param, e) => {
@@ -52,7 +54,7 @@ class ContactForm extends Component {
                 <Container>
                     <h1 className="h1">Get in Touch</h1>
                     <hr className="heading-horizon" />
-                    <Form onSubmit={this.handleSubmit.bind(this)}>
+                    <Form id="contact-form" onSubmit={this.handleSubmit.bind(this)}>
                         <FormGroup controlId="fromBasicEmail">
                             <Label className="label">Email Address</Label>
                             <Input 
@@ -67,8 +69,8 @@ class ContactForm extends Component {
                         <FormGroup controlId="fromBasicName">
                             <Label className="label">Name</Label>
                             <Input 
-                                type="text"
-                                name="name"
+                                type="hidden" 
+                                name="contact_number"
                                 value={ this.state.name }
                                 className="text"
                                 onChange={this.handleChange.bind(this, 'name')}
