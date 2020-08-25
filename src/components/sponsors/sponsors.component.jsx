@@ -1,6 +1,7 @@
 import React from 'react';
 import { ListGroup, ListGroupItem, Media, Container, Row, Col, Card, CardHeader, CardBody, CardTitle, CardText, CardFooter } from 'reactstrap';
-import sp from '../../media/bsponsor.png';
+import sf from '../../media/sinekamva.png';
+import hh from '../../media/happy-hour.jpg'
 
 
 
@@ -8,7 +9,7 @@ const Sponsors = (props) => {
     return (
         <div className="container">
             <br />
-            <h1 className="h1">Sponsors</h1>
+            <h1 className="h1">Organizations</h1>
             <hr className="heading-horizon" />
             <br />
             <Container>
@@ -16,14 +17,14 @@ const Sponsors = (props) => {
                     <Col sm="6">
                         <div>
                             <Card className="notice-sponsor">
-                                <CardHeader>Support a Project </CardHeader>
+                                <CardHeader> Organizations Websites </CardHeader>
                                 <CardBody>
-                                    <CardTitle>Become a Sponsor</CardTitle>
+                                    <CardTitle>For Organizations in Action. </CardTitle>
                                     <CardText>
-                                      If you would like to support one or more of our projects or become a partner please contact us.
+                                        Basic Start-Up Site
                                     </CardText>
                                 </CardBody>
-                                <CardFooter>Make The Connect</CardFooter>
+                                <CardFooter> Example: <a target="__blank" href="https://www.radlee.github.io/sinekamva"> Sinekamva Website</a></CardFooter>
                             </Card>
                         </div>
                     </Col>
@@ -32,42 +33,28 @@ const Sponsors = (props) => {
                             <ListGroupItem className="list-g">
                                 <Media>
                                     <Media className="profile-pic" left>
-                                        <Media className="Media" object src={sp} height="64px" alt="Sponsor Photo" />
+                                        <Media className="Media" object src={hh} height="64px" alt="Sponsor Photo" />
                                     </Media>
                                     <Media body>
                                         <Media heading>
-                                            Sponsor 1
+                                            Happy Hour Foundation
                                         </Media>
-                                        <h5>Project 2</h5>
-                                        Project Category 2
+                                        <h5>Community Based Organisation</h5>
+                                        Soup Kitchen Every Tuesday at the community Library
                                     </Media>
                                 </Media>
                             </ListGroupItem>
                             <ListGroupItem className="list-g">
                                 <Media>
                                     <Media className="profile-pic" left>
-                                        <Media className="Media" object src={sp} height="64px" alt="Sponsor Photo" />
+                                        <Media className="Media" object src={sf} height="64px" alt="Sponsor Photo" />
                                     </Media>
                                     <Media body>
                                         <Media heading>
-                                            Sponsor 2
+                                            Sinekamva Foundation
                                         </Media>
-                                        <h5>Project 2</h5>
-                                       Project Category 2
-                                    </Media>
-                                </Media>
-                            </ListGroupItem>
-                            <ListGroupItem className="list-g">
-                                <Media>
-                                    <Media className="profile-pic" left>
-                                        <Media className="Media" object src={sp} height="64px" alt="Sponsor Photo" />
-                                    </Media>
-                                    <Media body>
-                                        <Media heading>
-                                            Sponsor 3
-                                        </Media>
-                                        <h5>Project 2</h5>
-                                        Project Category 2
+                                        <h5>Youth Organisation</h5>
+                                        Social Welfare based Organisation.
                                     </Media>
                                 </Media>
                             </ListGroupItem>

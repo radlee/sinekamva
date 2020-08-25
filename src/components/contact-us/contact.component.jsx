@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import * as emailjs from 'emailjs-com';
 
-import { Row, Col, Container, Form, FormFeedback, Button, FormGroup, Label, Input } from 'reactstrap';
+import { Container } from 'reactstrap';
 
 class ContactForm extends Component {
     state = {
-        name: '',
         email: '',
         subject: '',
         message: ''
@@ -14,14 +13,14 @@ class ContactForm extends Component {
     handleSubmit(e) {
         e.preventDefault()
 
-        const { name, email, subject, message } = this.state;
+        // const { name, email, subject, message } = this.state;
 
-        let templateParams = {
-            from_name: email,
-            to_name: 'mafanga@gmail.com',
-            subject: subject,
-            message_html: message
-        }
+        // let templateParams = {
+        //     from_name: email,
+        //     to_name: 'mafanga@gmail.com',
+        //     subject: subject,
+        //     message_html: message
+        // }
 
         emailjs.send(
             'gmail',
@@ -36,10 +35,7 @@ class ContactForm extends Component {
 
     resetForm() {
         this.setState({
-            name: '',
-            email: '',
-            subject: '',
-            message: ''
+            
         })
         
     }
@@ -54,7 +50,8 @@ class ContactForm extends Component {
                 <Container>
                     <h1 className="h1">Get in Touch</h1>
                     <hr className="heading-horizon" />
-                    <Form id="contact-form" onSubmit={this.handleSubmit.bind(this)}>
+                    <h3 className="insta"> Instagram Handle: @proriginallee</h3>
+                    {/* <Form id="contact-form" onSubmit={this.handleSubmit.bind(this)}>
                         <FormGroup controlId="fromBasicEmail">
                             <Label className="label">Email Address</Label>
                             <Input 
@@ -99,7 +96,7 @@ class ContactForm extends Component {
                             />
                         </FormGroup>
                         <Button variant="primary" type="submit">Submit</Button>
-                    </Form>
+                    </Form> */}
                 </Container>
             </div>
 

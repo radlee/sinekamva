@@ -7,20 +7,7 @@ import TeamList from './components/team-list/team-list.component';
 import Sponsors from './components/sponsors/sponsors.component';
 import ContactForm from './components/contact-us/contact.component';
 import './App.css';
-
 import Navigation from "./components/Navigation"
-import Landing from "./components/Landing"
-import Create from "./components/Create";
-
-// Version 2
-
-// import Login from "./components/Login"
-// import Register from "./components/Register"
-// import Profile from "./components/Profile"
-// import ProjectsList  from "./components/projects-list.component";
-// import Project from "./components/project.component";
-// import EditProject from "./components/edit-project.component";
-// import CreateUser from "./components/create-user.component";
 import { Jumbotron, Button } from 'reactstrap';
 
 class App extends Component {
@@ -29,10 +16,11 @@ class App extends Component {
         <div className="App">
           <Navigation />
           <Jumbotron className="jumbotron">
-              <h1 clasName="display-3">Sinekamva  Foundation</h1>
-              <p className="lead">Our Organizational Objectives are linked to the problems and contributing towards Solutions</p>
+              <h1 className="display-3">OR<span className="ig">IG</span>IN<span className="ig">2020</span></h1>
+              <p className="lead">COLLABORATION | COMMUNITY | INNOVATION | STYLED | CULTURED | SOPHISTICATED </p>
               <hr className="my-2" />
-              <p>We Act uppon these Objectives to provide Solutions</p>
+              <p>Solving Community Problems. Using Design Thinking Processes to achive our Goals. <em>Every Project is Special.</em></p>
+              <p>The main Philosophy behind Origin2020 is based on core problem solving.</p>
               <p className="lead">
                   <Button color="primary">Connect</Button>
               </p>

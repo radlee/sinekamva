@@ -6,6 +6,10 @@
   color: white !important;
 }
 
+.ig {
+  color: red;
+}
+
 .heading-span {
   background-color: #0076a3d1;
   color: white;
@@ -26,21 +30,20 @@
 
 
 .navbar {
-    background-color: #17a2b882!important;
+    background-color: #e41616a6 !important;
 }
 
 .emphasis {
-  color:#f7e30087;
+  color:#e41616 !important;
 }
 
-
 .navbar > .bg-dark {
-  background-color: #0076a3 !important;
+  background-color: #cb0926 !important;
 }
 .navbar {
   position: relative;
   display: flex;
-  background-color: #0076a3 !important;
+  background-color: #e90c0cc4;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
@@ -82,69 +85,85 @@ Form {
   outline: 0;
 }
 
+a {
+  color: white !important;
+}
+
+.insta {
+  color: white;
+}
+
 .jumbotron {
-  background-image: url("./bg2.jpg");
+  background-image: url("./inno.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   color: #ffffff;
   background-attachment: fixed;
   background-position: center;
-  border-bottom: 8px solid #f7e30087;
-  border-top: 8px solid #f7e30073;
-  border-radius: 0px !important;
+  border-bottom: 8px solid #ffffffb5;
+  border-top: 8px solid #ffffffa6;
 }
 .notice-is {
-  background-image: url("./is.jpg");
+  /* background-image: url("./is.jpg"); */
+  background-color: black !important;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #ffffff;
+  color: white;
   background-position: center;
   border-bottom: 8px solid #f7e300;
   border-top: 8px solid #0077a2;
-  border-radius: 0px !important;
 }
+
+.display-3 {
+  letter-spacing: 20px !important;
+}
+
 .notice-one {
-  background-image: url("./bg1.jpg");
+  /* background-image: url("./bg1.jpg"); */
+  background-color: #000000cc !important;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #ffffff;
+  color: white;
   background-position: center;
   border-bottom: 8px solid #f7e300;
   border-top: 8px solid #0077a2;
   border-radius: 0px !important;
 }
 .notice-sponsor {
-  background-image: url("./sponsor.jpg");
+  /* background-image: url("./sponsor.jpg"); */
+  background-color: black !important; 
   background-size: cover;
   background-repeat: no-repeat;
-  color: #ffffff;
+  color: white;
   background-position: center;
   border-bottom: 8px solid #4200f79f;
   border-top: 8px solid #a20d00;
   border-radius: 0px !important;
 }
 .notice-inno {
-  background-image: url("./inno.jpg");
+  /* background-image: url("./inno.jpg"); */
+  background-color: black;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #ffffff;
+  color: white;
   background-position: center;
   border-bottom: 8px solid #f7e300;
   border-top: 8px solid #0077a2;
   border-radius: 0px !important;
 }
 .notice-two {
-  background-image: url("./bg4.jpg");
+  /* background-image: url("./bg2.jpg"); */
+  background-color: #000000cc !important;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #ffffff;
+  color: white;
   background-position: center;
   border-bottom: 8px solid #f7e300;
   border-top: 8px solid #0077a2;
   border-radius: 0px !important;
 }
 body {
-  background-image: url("./bg4.jpg");
+  background-image: url("./bg2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -174,13 +193,13 @@ h1 {
   text-decoration: underline !important;
 }
 .heading-horizon {
-  background-color: #0076a36e;
+  background-color: #e80c0cf2;
   height: 6px;
   width: 200px;
 }
 
 .lead {
-  color: #f7e300;
+  color: #f9fbfc;
   font-variant-caps: all-petite-caps;
 }
 .team {
@@ -188,21 +207,21 @@ h1 {
 }
 
 .list-g {
-  border-top: 6px solid #0076a3 !important;
+  border-top: 6px solid #d0092b !important;
 }
 
 
 .card-header {
   color: white;
-  background-color: rgb(0 118 163 / 51%) !important;
-  border-bottom: 6px solid rgb(0 82 247 / 50%) !important;
+  background-color: rgb(208 0 39 / 98%) !important;
+  border-bottom: 6px solid rgb(0 0 0 / 98%) !important;
 }
 
 .card-footer {
   color: white;
   font-weight: bold;
-  background-color: rgb(0 118 163 / 50%) !important;
-  border-top: 6px solid rgb(247 227 0 / 50%) !important;
+  background-color: rgb(208 0 39 / 98%) !important;
+  border-top: 6px solid rgb(0 0 0 / 98%) !important;
 }
 
 .App-logo {
@@ -238,4 +257,16 @@ h1 {
   to {
     transform: rotate(360deg);
   }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .display-3 {
+    letter-spacing: 4px !important;
+    font-size: 2.5rem !important;
+  }
+  .card {
+    margin: 10px !important;
+  }
+  
 }

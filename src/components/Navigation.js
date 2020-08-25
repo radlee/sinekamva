@@ -1,5 +1,5 @@
-import React, { Component, useState } from 'react';
-import { Link, withRouter } from 'react-router-dom';
+import React, { useState } from 'react';
+import { withRouter } from 'react-router-dom';
 import {
     Collapse,
     Navbar,
@@ -8,11 +8,7 @@ import {
     Nav,
     NavItem,
     NavLink,
-    UncontrolledDropdown,
-    DropdownMenu,
-    DropdownItem,
     NavbarText,
-    DropdownToggle
 } from 'reactstrap';
 
 const Navigation = (props) => {
@@ -23,36 +19,25 @@ const Navigation = (props) => {
         return (
             <div className="">
 
-                <Navbar className="navigation" color="info" dark extended="md">
-                    <NavbarBrand href="/">Sinekamva Foundation Inc</NavbarBrand>
+                <Navbar className="navigation" dark extended="md">
+                    <NavbarBrand href="/">ORIGIN2020</NavbarBrand>
                     <NavbarToggler onClick={toggle} />
                     <Collapse isOpen={isOpen} navbar>
                         <Nav className="mr-auto" navbar>
-                            <NavItem>
+                        <NavItem>
                                 <NavLink href="/about/">About</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="/partners/">Partners</NavLink>
+                                <NavLink href="/about/">Objectives</NavLink>
                             </NavItem>
-                            <UncontrolledDropdown nav inNavbar>
-                                <DropdownToggle nav caret>
-                                    Projects
-                                </DropdownToggle>
-                                <DropdownMenu right>
-                                    <DropdownItem>
-                                        Project 1
-                                    </DropdownItem>
-                                    <DropdownItem>
-                                        Project 2
-                                    </DropdownItem>
-                                    <DropdownItem divider />
-                                    <DropdownItem>
-                                        Manage Projects
-                                    </DropdownItem>
-                                </DropdownMenu>
-                            </UncontrolledDropdown>
+                            <NavItem>
+                                <NavLink href="/partners/">Services</NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink href="/partners/">Organizations</NavLink>
+                            </NavItem>
                         </Nav>
-                        <NavbarText>Team</NavbarText>
+                        <NavbarText>Get In Touch</NavbarText>
                     </Collapse>
                 </Navbar>     
             </div>
